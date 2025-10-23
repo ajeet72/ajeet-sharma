@@ -6,6 +6,21 @@ export default function ProjectsSection({ id }: { id: string }) {
     <section id={id}>
       <CenterButton name="Projects" />
       <ProjectCard
+        title="Plantera eCommerce Platform"
+        description="Plantera is a nature-inspired eCommerce platform for plant enthusiasts, offering a variety of plants, planters, and gardening accessories with a clean, user-friendly design. Currently under development."
+        image="projectImage/PlanteraFull.png"
+        projectUrl="https://planterastore.vercel.app/"
+        scrollImage={true}
+      />
+      <ProjectCard
+        title="Paymatter"
+        description="Paymatter is a secure and user-friendly web app for effortless money transfers. It features user authentication, real-time balance tracking, and encrypted transactions, ensuring safe and seamless payments with rewards for every transfer."
+        image="projectImage/PaymatterFull.png"
+        projectUrl="https://paychey.vercel.app"
+        scrollImage={true}
+        reverse={true}
+      />
+      <ProjectCard
         title="Full-Stack Blog Platform"
         description="Built a responsive blog platform using React, TypeScript, and Cloudflare Workers. Implemented JWT-based authentication, Zod for validation, and Prisma with PostgreSQL for secure data handling. Optimized for performance and scalability with a modern serverless architecture."
         image="/projectImage/medium.png"
