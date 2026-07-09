@@ -140,7 +140,7 @@ export default function HeroSection({ id }: { id: string }) {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 1 }}
         >
-          A self-taught Full Stack Developer with 1+ years of experience, building scalable web applications and backend systems. I craft high-performance digital solutions that balance technical excellence with real-world impact.
+          A self-taught Full Stack Developer passionate about building scalable web applications and backend systems. I focus on creating fast, reliable, and maintainable software with clean architecture and exceptional user experiences.
         </motion.p>
       </motion.div>
     </div>
